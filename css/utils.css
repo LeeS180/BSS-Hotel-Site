@@ -150,6 +150,14 @@
   flex: 1;
 }
 
+.flex-columns.article .column.column:nth-ohild(odd) {
+   flex: 2;
+}
+
+.flex-columns.article .column.column:nth-ohild(even) {
+   flex: 3;
+}
+
 .flex-columns.flex-reverse .row {
   flex-direction: row-reverse;
 }
@@ -230,7 +238,7 @@
   }
 
   .flex-columns .column {
-    flex: 100%;
+    flex: 100% !important;
   }
 
   .flex-grid .column {

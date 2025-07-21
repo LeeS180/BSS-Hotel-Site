@@ -72,7 +72,7 @@ img {
    margin: 0 .5rem;
 }
 
-.navbar a:hover {
+.navbar a:hover:not([class="logo-link"]) {
   border-bottom: 2px solid var(--warning) ;
 }
 
@@ -103,6 +103,11 @@ img {
   height: 100vh;
   color: var(--white);
   position: relative;
+}
+
+.main-header.blog {
+  background-image: url('../img/2.jpeg');
+  height: 50vh;
 }
 
 
@@ -243,6 +248,13 @@ img {
 }
 
 
+/* article */
+
+.article {
+  padding: 3rem 5rem;
+  color: var(--white);
+}
+
 /* footer */
 
 .footer {
@@ -286,4 +298,11 @@ img {
     padding: 10px;
     margin: 0 3px;
   }
+}
+
+
+/* navbar logo link */
+
+.logo-link > .brand {
+  margin-left: 0;
 }
