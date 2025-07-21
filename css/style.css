@@ -96,6 +96,7 @@ img {
 .main-header {
   background-image: url('../img/bg-1.jpeg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -156,4 +157,19 @@ img {
   padding: 1rem;
   border-radius: 50%;
   margin: 1.5rem;
+}
+
+/* about */
+
+#about {
+  color: var(--white);
+}
+
+#about h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+#about p {
+  margin: 2rem 0;
 }
